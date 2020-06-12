@@ -1,0 +1,17 @@
+{
+	"values": [
+		"minecraft:stone",
+		"minecraft:cobblestone",
+		"minecraft:grass_block",
+		"minecraft:dirt",
+		"minecraft:gravel",
+		"minecraft:andesite",
+		"minecraft:diorite",
+		"minecraft:granite",
+		"minecraft:obsidian",
+		"minecraft:basalt",
+		"minecraft:netherrack",
+		"minecraft:warped_nylium",
+		"minecraft:crimson_nylium"
+	]
+}
