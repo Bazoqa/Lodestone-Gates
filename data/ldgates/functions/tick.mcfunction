@@ -4,7 +4,7 @@
 ### General Gate Mechanics ###
 
 # create gates
-execute as @e[type=item,name="Eye of Ender"] at @s if block ~ ~-1 ~ minecraft:lodestone unless entity @e[tag=ldgates_gate,distance=..8] unless score $nextID ldgates_id matches 17.. run summon minecraft:armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Small:1b,Tags:["ldgates_gate","ldgates_newgate"]}
+execute in minecraft:overworld as @e[type=item,name="Eye of Ender",x=0] at @s if block ~ ~-1 ~ minecraft:lodestone unless entity @e[tag=ldgates_gate,distance=..8] unless score $nextID ldgates_id matches 17.. run summon minecraft:armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Small:1b,Tags:["ldgates_gate","ldgates_newgate"]}
 execute as @e[tag=ldgates_newgate] at @s run function ldgates:create_gate
 
 # give a prompt to players near a gate to choose a destination

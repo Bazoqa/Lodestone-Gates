@@ -17,22 +17,22 @@ kill @e[type=item,name="Eye of Ender",limit=1,sort=nearest,distance=..1]
 ### Lodestone Gate Data Scoreboards Configuration
 
 # update gate names
-execute if score @s ldgates_id matches 1 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"1","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 2 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"2","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 3 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"3","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 4 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"4","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 5 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"5","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 6 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"6","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 7 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"7","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 8 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"8","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 9 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"9","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 10 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"10","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 11 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"11","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 12 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"12","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 13 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"13","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 14 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"14","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 15 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"15","color":"aqua"},{"text":")","color":"gray"}]'}
-execute if score @s ldgates_id matches 16 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"gray"},{"text":"16","color":"aqua"},{"text":")","color":"gray"}]'}
+execute if score @s ldgates_id matches 1 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"1","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 2 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"2","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 3 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"3","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 4 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"4","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 5 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"5","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 6 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"6","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 7 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"7","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 8 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"8","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 9 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"9","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 10 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"10","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 11 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"11","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 12 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"12","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 13 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"13","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 14 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"14","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 15 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"15","color":"aqua"},{"text":")","color":"white"}]'}
+execute if score @s ldgates_id matches 16 run data merge entity @s {CustomNameVisible:1b,CustomName:'[{"text":"Lodestone Gate (ID: ","color":"white"},{"text":"16","color":"aqua"},{"text":")","color":"white"}]'}
 
 # update gate exisistence scoreboards
 execute if score @s ldgates_id matches 1 run scoreboard players set $1 ldgates_exists 1
